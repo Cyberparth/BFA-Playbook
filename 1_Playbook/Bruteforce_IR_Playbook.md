@@ -1,4 +1,4 @@
-Brute-Force Incident Response Playbook
+# Brute-Force Incident Response Playbook
 
 ## 1. Incident Overview
 **Incident Name:** Brute-Force Authentication Attack
@@ -42,12 +42,6 @@ brute-force attack.
 3. Check whether a successful login occurred after failures
 4. Validate timestamps and frequency of attempts
 
-**False Positive Checks:**
-- User repeatedly entering incorrect credentials
-- Internal monitoring systems
-- Known administrative IP addresses
-
-
 ## 4. Containment
 
 **Immediate Actions:**
@@ -55,8 +49,7 @@ brute-force attack.
 - Temporarily lock the targeted user account
 - Increase monitoring on authentication logs
 
-**Goal:**  
-Prevent further unauthorized attempts and limit potential damage.
+**Goal:**  Prevent further unauthorized attempts and limit potential damage.
 
 ## 5. Eradication
 
@@ -88,7 +81,4 @@ Prevent further unauthorized attempts and limit potential damage.
 - Brute-force attack was detected early
 - Existing monitoring helped identify suspicious behavior
 
-**Improvements:**
-- Lower detection threshold for faster alerting
-- Implement automated IP blocking
-- Enhance user awareness on password hygiene
+
