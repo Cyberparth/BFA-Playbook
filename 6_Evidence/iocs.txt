@@ -1,0 +1,6 @@
+Indicators of Compromise
+
+IP Address: ::1  OR  127.0.0.1
+User Account: testuser
+Service: SSH
+Attack Type: Brute-force login attempt
