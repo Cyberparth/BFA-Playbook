@@ -1,0 +1,5 @@
+- SSH service was running normally
+- Multiple failed login attempts observed
+- Same user and same IP detected
+- Detection script confirmed repeated failures
+- SSH connection closed automatically
