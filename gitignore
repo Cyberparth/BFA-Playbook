@@ -1,0 +1,33 @@
+# 1. System / OS files
+.DS_Store
+Thumbs.db
+
+# 2. Editor / IDE files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# 3. Python cache (if you used Python anywhere)
+__pycache__/
+*.pyc
+*.pyo
+
+# 4. Logs (raw logs not needed in repo)
+*.log
+logs/
+
+# 5. SSH key files (never in repo)
+id_rsa
+id_rsa.pub
+*.pem
+
+# 6. Screenshots / Large media (optional — keep only curated ones)
+screenshots/
+*.png
+*.jpg
+
+# 7. Bash history
+*.history
+*.bash_history
