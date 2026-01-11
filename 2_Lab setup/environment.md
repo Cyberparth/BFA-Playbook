@@ -9,7 +9,7 @@ a brute-force authentication attack without impacting real systems.
 - SSH service enabled for authentication logging
 
 ## Log Sources
-- /var/log/auth.log  
+- journalctl log  
   Used to monitor authentication attempts and failed login events.
 
 ## User Accounts
@@ -17,7 +17,7 @@ a brute-force authentication attack without impacting real systems.
 - No real user credentials are used
 
 ## Network Scope
-- Localhost or internal network only
+- Localhost 
 - No external or production systems involved
 
 ## Tools Used
