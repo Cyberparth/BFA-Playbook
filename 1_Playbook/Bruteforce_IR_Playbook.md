@@ -21,8 +21,7 @@ with the intent of gaining unauthorized access.
 
 ## 2. Detection
 **Log Sources:**
-- Authentication logs (/var/log/auth.log)
-- SSH service logs
+- journalctl ssh logs
 
 **Indicators of Attack:**
 - Repeated failed login attempts
